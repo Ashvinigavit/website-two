@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolio website - easy tutorials</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.jpeg" class="logo">
+                <ul>
+                    <li><a href="#header">home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#services">services</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Cloud Engineer</p>
+                <h1>hi, I'm <span>Ashvini</span><br>Gavit from India</h1>
+            </div>
+        </div>
+    </div> <!-------------------about----------------->
+ <div id="about">
+     <div class="container">
+         <div class="row">
+            <div class="about-col-1">
+                <img src="images/PHOTO.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1><class="sub-title">about Me</h1>
+                <p> </p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Skills')">Experience</p>
+                    <p class="tab-links" onclick="opentab('Skills')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="Skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                        <li><span>Web Development</span><br>Web app Development</li>
+                        <li><span>App Development</span><br>Buiding Android/iOS apps</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                  <ul>
+                    <li><span>2023 - current</span><br>UI/UX Desing training at ET Institute</li>
+                    <li><span>2021 - 2023</span><br> Team lead at StarApp LLC.</li>
+                    <li><span>2019 - 2021</span><br>UI/UX Desing Executive at Coin Digital Ltd.</li>
+                    <li><span>2018 - 2019</span><br>Internship at ekart eCommerce.</li>
+                  </ul>    
+                </div>
+                <div class="tab-contents"id="Education">
+                    <ul>
+                        <li><span>2023</span><br>UI/UX Desing Training at ET Institute</li>
+                        <li><span>2023</span><br>MBA From MIT Pune</li>
+                        <li><span>2022</span><br>BBA From ISM Pune</li>
+                    </ul>
+                </div>
+            </div>         
+     </div>
+ </div>
+ </div>
+<!-------------------Services---------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">my services</h1>
+        <div class="services-list">
+           <div>
+            <i class="fas fa-code"></i>
+            <h2>Web Design</h2>
+            <p>Web design services craft visually appealing, user-friendly websites. They encompass UI/UX design, responsive design, graphic design, and brand integration. Services also include e-commerce design, CMS integration, and SEO-friendly practices. Web designers create interactive elements and provide ongoing maintenance, ensuring a compelling and effective online presence for businesses and individuals.</p>
+            <a href="#">Learn more</a>
+        </div> 
+        <div>
+            <i class="fas fa-crop-alt"></i>
+            <h2>UI/UX Design</h2>
+            <p>UI/UX (User Interface/User Experience) design focuses on creating a seamless and enjoyable interaction between users and digital products. UI design emphasizes the visual elements, ensuring an aesthetically pleasing interface. UX design concentrates on the overall user experience, optimizing usability, accessibility, and efficiency to enhance user satisfaction and engagement.</p>
+            <a href="#">Learn more</a>
+        </div> 
+        <div>
+            <i class="fab fa-app-store"></i>
+            <h2>App Design</h2>
+            <p>App design involves the process of creating the visual and functional aspects of a mobile application. It encompasses UI (User Interface) design, which focuses on the look and feel of the app, and UX (User Experience) design, which ensures a smooth and satisfying interaction for users. App designers consider layout, navigation, color schemes, and overall user flow to deliver an engaging and intuitive mobile experience. </p>
+            <a href="#">Learn more</a>
+        </div> 
+        </div>
+    </div>
+</div>
+<!----------------portfolio------------->
+<div id="portfolio">
+   <div class="container">
+    <h1 class="sub-title">my work</h1>
+      <div class="work-list">
+        <div class="work">
+        <img src="images/work_1.jpeg">
+        <div class="layer">
+            <h3>Social Media App</h3>
+            <p>the app connects you yo the talented people around the world.Download it from play store.</p>
+            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+        </div>
+        </div>
+        <div class="work">
+            <img src="images/work_2.jpeg">
+            <div class="layer">
+                <h3>Music App</h3>
+                <p>the app connects you yo the talented people around the world.Download it from play store.</p>
+                <a href="#"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+            </div>
+            <div class="work">
+                <img src="images/work_3.jpeg">
+                <div class="layer">
+                    <h3>Online shopping App</h3>
+                    <p>the app connects you yo the talented people around the world.Download it from play store.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+         </div>
+      </div>
+      <a href="#" class="btn">see more</a>
+   </div>
+</div>
+<!---------------contact------------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+           <div class="contact-left">
+               <h1 class="sub-title">Contact Me</h1>
+               <p><i class="fas fa-paper-plane" ></i>contact@example.com</p>
+               <p><i class="fas fa-phone-squre-alt"></i>0123456789</p>
+               <div class="Socil-icons">
+                <a href="https://facebook.com"><i class="fab fa-facebook"></i></a>
+                <a href=""><i class="fab fa-twitter-square"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+                <a href=""><i class="fab fa-linkedin"></i></a>
+               </div>
+               <a href="images/my-cv.pdf" download class="btn btn2">Download Cv</a>
+           </div>
+            <div class="contact-right">
+              <from>
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Massage" rows="6" placeholder="Your Massage"></textarea>
+                <button type="submit" class="btn btn2">submit</button>
+              </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+ <script>
+
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+ </script>
+</body>
+    
